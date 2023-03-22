@@ -2,24 +2,26 @@
 <html lang="en">
 
 <head>
+    <!--code to make resume competable in any device-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title for my resume-->
     <title>Tshepiso More</title>
-    <link rel="stylesheet" href="/src/css/stylesheet.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-
+<!-- open body-->
 <body>
+<!--header for my homer page-->
+    <header class="topnav">
+<!--my name and occupation-->
+        <a href="#default" class="name">TSHEPISO MORE / SOFTWARE DEVELOPER</a>
+<!--menu list-->
+        <div class="navlist">
 
-    <header id="topnav">
-
-        <a href="#default" id="name">TSHEPISO MORE / SOFTWARE DEVELOPER</a>
-
-        <div id="navlist">
-
-            <a id="active" href="#home">HOME</a>
+            <a class="active" href="#home">HOME</a>
             <a href="#resume">RESUME</a>
             <a href="#skills">SKILLS</a>
             <a href="#contact">CONTACT</a>
@@ -27,22 +29,24 @@
         </div>
 
     </header>
-
-    <section id="home">
-        <div id="homepage">
+<!--section for my home page-->
+    <section class="home">
+        <div class="homepage">
 
             <aside>
-                <div id="img">
+                <div class="img">
+                    <!--multi source picture for different device size-->
                     <picture>
 
-                        <source media="(max-width: 500px)" srcset="/src/images/TTMedium.jpg">
-                        <img src="/src/images/TTDefault.jpg" alt="image" id="photo" width="600px">
+                        <source media="(max-width: 500px)" srcset=./images/TTMedium.jpg">
+                        <img src="./images/TTDefault.jpg" alt="image" class="photo" width="600px">
 
                     </picture>
                 </div>
             </aside>
             <div>
-                <article id="intro">
+                <!--short description about me-->
+                <article class="intro">
 
                     <h2>ABOUT ME</h2>
                     <p>Good communication skills, verbal and written</p>
@@ -54,8 +58,9 @@
             </div>
         </div>
     </section>
-
-    <footer id="footer">
+<!--footer for my home page-->
+    <footer class="footer">
+        <!--contacts icon for my social media-->
         <div>
                 <a href="https://www.facebook.com" class="fa fa-facebook"></a>
                 <a href="http://www.linkedin.com" class="fa fa-linkedin"></a>
@@ -64,20 +69,20 @@
     
             </footer>
 
-
-    <section id="page">
-
-        <header id="resume">
+<!--resume section second page-->
+    <section class="page">
+<!--header for second page-->
+        <header class="resume">
 
             <h2>RESUME</h2>
 
         </header>
-
-        <article id="firstpage">
+<!--article for second page-->
+        <article class="firstpage">
 
             <br>
-            <div id="exp">
-
+            <div class="exp">
+<!--experience section-->
                 <h3><u>EXPERIENCE</u></h3>
 
                 <p>COMPANY: LONMIN</p>
@@ -105,8 +110,8 @@
                 <br>
             </div>
 
-            <div id="qual">
-
+            <div class="qual">
+<!--qualifications section-->
                 <h3><u>QUALIFICATIONS</u></h3>
 
                 <p> SECONDARY EDUCATION: BHS</p>
@@ -128,79 +133,87 @@
         </article>
 
     </section>
-
-    <footer id="footer">
+<!--footer for my second page-->
+    <footer class="footer">
+        <!--contacts icon for my social media-->
         <div>
             <a href="https://www.facebook.com" class="fa fa-facebook"></a>
             <a href="http://www.linkedin.com" class="fa fa-linkedin"></a>
             <a href="http://www.instagram.com" class="fa fa-intagram"></a>
         </div>
-                <div id="return">
+        <!--return home button for second page-->
+                <div class="return">
                     <a href="#" class="previous">&laquo; RETURN HOME</a>
                     
                 </div>
         
             </footer>
-
-    <section id="page2">
-
-        <header id="skills">
+<!--skills section third page-->
+    <section class="page2">
+<!--header for third page-->
+        <header class="skills">
 
             <h2>SKILLS</h2>
 
         </header>
-
+<!--article for third page-->
         <article>
-<div id="grid-item">
-            <img src="/src/images/figmaicon.png" alt="image" id="icon" width="150px">
-            <img src="/src/images/githubicon.png" alt="image" id="icon" width="150px">
-            <img src="/src/images/htmlcssicon.png" alt="image" id="icon" width="150px">
-            <img src="/src/images/loomicon.png" alt="image" id="icon" width="150px">
-            <img src="/src/images/scratchicon.png" alt="image" id="icon" width="150px">
+            <!--icons for my skills section-->
+<div class="grid-item">
+            <img src="/src/images/figmaicon.png" alt="image" class="icon" width="150px">
+            <img src="/src/images/githubicon.png" alt="image" class="icon" width="150px">
+            <img src="/src/images/htmlcssicon.png" alt="image" class="icon" width="150px">
+            <img src="/src/images/loomicon.png" alt="image" class="icon" width="150px">
+            <img src="/src/images/scratchicon.png" alt="image" class="icon" width="150px">
 </div>
         </article>
            
     </section>
-    
-    <footer id="footer">
+    <!--footer for third page-->
+    <footer class="footer">
+        <!--contacts icon for my social media-->
         <div>
             <a href="https://www.facebook.com" class="fa fa-facebook"></a>
             <a href="http://www.linkedin.com" class="fa fa-linkedin"></a>
             <a href="http://www.instagram.com" class="fa fa-intagram"></a>
         </div>
+        <!--return home button for third page-->
                 <div>
                     <a href="#" class="previous">&laquo; RETURN HOME</a>
                     
                 </div>
         
-            </footer></footer>
-
-    <section id="page3">
-
-        <header id="contact">
+            </footer>
+<!--contact section forth page-->
+    <section class="page3">
+<!--header for my forth page-->
+        <header class="contact">
 
             <h2>CONTACT</h2>
 
         </header>
-
+<!--my form-->
         <article>
-
+            <!--website for submitting my form-->
             <form action="https://formsubmit.co/d24ad5f1db07cccd42234c54c212b7b6" method="POST">
-                <div id="list">
+                <!--list of my form-->
+                <div class="list">
                     <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="fname">
+                    <input type="text" class="fname" name="fname">
                     <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="fname">
+                    <input type="text" class="lname" name="fname">
                     <label for="email">Email</label>
-                    <input type="text" id="email" name="email">
+                    <input type="text" class="email" name="email">
                     <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject">
+                    <input type="text" class="subject" name="subject">
                 </div>
-                <div id="mes">
+                <!--messaging section-->
+                <div class="mes">
                 <label for="message">Message</label>
                 <br>
-                <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                <textarea name="message" class="message" cols="30" rows="5"></textarea>
                 <br>
+                <!--submit button for the form-->
                 <input class="submit" type="submit" value="submit">
             </div>
 
@@ -209,8 +222,9 @@
         </article>
 
     </section>
-
-    <footer id="footer">
+<!--footer for forth page-->
+    <footer class="footer">
+        <!--contacts icon for my social media-->
 <div>
     <a href="https://www.facebook.com" class="fa fa-facebook"></a>
     <a href="http://www.linkedin.com" class="fa fa-linkedin"></a>
@@ -222,7 +236,7 @@
         </div>
 
     </footer>
-
+<!--close body=-->
 </body>
 
 </html>
